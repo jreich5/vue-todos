@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "name": "Take out trash",
+      "isDone": false,
+      "dateAdded": 1664376548000
+    },
+    {
+      "id": 2,
+      "name": "Do the dishes",
+      "isDone": false,
+      "dateAdded": 1664376549000
+    },
+    {
+      "id": 3,
+      "name": "Build Vue app",
+      "isDone": false,
+      "dateAdded": 1664376550000
+    },
+    {
+      "id": 4,
+      "name": "Workout",
+      "isDone": false,
+      "dateAdded": 1664376551000
+    },
+    {
+      "id": 5,
+      "name": "Play with kids",
+      "isDone": false,
+      "dateAdded": 1664376552000
+    }
+  ]
+}
