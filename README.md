@@ -1,46 +1,16 @@
-# vue-todo-app
+# Vue Todos
 
-This template should help get you started developing with Vue 3 in Vite.
+This repo contains a basic todo application built using [Vue JS](https://vuejs.org/) and [Vite](https://vitejs.dev/). The code is written in [TypeScript](https://www.typescriptlang.org/) with the help of the [Volar VS Code plugin](https://github.com/johnsoncodehk/volar/tree/master/extensions/vscode-typescript-vue-plugin). [JSON Server](https://github.com/typicode/json-server) is used for creating a mock database locally. Styling is accomplished using [Bootstrap 5.2](https://github.com/typicode/json-server).
 
-## Recommended IDE Setup
+## Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. Clone this repo
+2. Run `npm install` to install dependencies
+3. Run `json-server --watch db.json` to start JSON server on port 3000
+4. Run `npm run dev` to launch Vue app
 
-## Type Support for `.vue` Imports in TS
+## Planned Enhancements
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- refactor TypeScript code to remove any explicit `any` types
+- further abstract code to reduce individual file complexity
+- multi-user authentication using Firebase
